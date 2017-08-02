@@ -1,0 +1,23 @@
+{
+  "name": "chat_server",
+  "version": "1.0.0",
+  "description": "chat server like wechat",
+  "main": "app.js",
+  "scripts": {
+    "test": "node /WHERE/app.js ../config/config.where"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "chat",
+    "server"
+  ],
+  "author": "zh,xyk",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "log4js": "^2.3.2"
+  }
+}
